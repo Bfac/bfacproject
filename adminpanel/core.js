@@ -16,7 +16,7 @@ function httpGet(theUrl) {
     return xmlHttp.responseText;
 }
 function connect() {
-    ws = new WebSocket("ws://194.87.95.4:8081");
+    ws = new WebSocket("ws://194.87.95.4:5000");
     ws.binaryType = "arraybuffer";
     ws.onopen = function (arg) {
         ws.send(JSON.stringify({
