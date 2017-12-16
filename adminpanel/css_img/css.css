@@ -1,0 +1,239 @@
+body{
+	background: url("img/background.png");
+	 background-size: cover;
+	  font-family: arial;
+	   padding-top: 10%;
+	  background-position: center;
+}
+
+.logo{
+	background: url("img/logo.png");
+	 width: 315px;
+	  height: 60px;	  
+}
+
+.wrapper{
+	margin: 0 auto;
+	 width: 315px;
+}
+
+.register{
+	color: rgba(255,255,255,0.4);
+	 font-size: 12px;
+	  text-align: center;
+	   padding-bottom:12px;
+	  border-bottom: 1px groove rgba(255,255,255,0.1);
+	 box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.register a{
+	color: #6ed9a1;
+}
+
+.youtube{
+	background-color: rgba(255,255,255,0.1);
+	 border-bottom-left-radius: 50px;
+	  border-top-left-radius: 50px;
+	   border-bottom-right-radius: 50px;
+	    border-top-right-radius: 50px;
+	   padding: 10px;
+	  display: inline-block;
+	 width:100%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	 -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.youtube-img{
+	float:left;
+	 width:15%;
+}
+
+.youtube-channel{
+	float:left;
+	 width:43%;
+}
+
+.youtube-subscribe{
+	width:40%;
+	 background-color:#e62117;
+	  float:left;
+	   color:white;
+	  padding-top:11px;
+	 padding-bottom:11px;
+	padding-left:3px;
+	 padding-right:4px;
+	  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	    box-sizing: border-box;         /* Opera/IE 8+ */
+	   border-bottom-right-radius:20px;
+	  -webkit-border-bottom-right-radius:20px;
+	 -moz-border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+	 -webkit-border-top-right-radius:20px;
+	  -moz-border-top-right-radius:20px;
+	   border-bottom-left-radius:5px;
+	    -webkit-border-bottom-left-radius:5px;
+	  -moz-border-bottom-left-radius:5px;
+	 border-top-left-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	 -moz-border-top-left-radius:5px;
+	  cursor: pointer;
+	   font-size:15px;
+	    border: 3px solid #ab1a13;
+	   -webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	 -ms-user-select: none; /* Internet Explorer/Edge */
+	  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */				  
+}
+
+.youtube-subscribe:hover{
+	background-color:#c11d15;
+}
+
+.youtube-subs{
+	width:100%;
+	 font-size:28px;
+}
+
+/* --- Alerts and Boxes ---*/
+
+.alert{
+	font-size: 12px;
+	 padding: 12px 15px;
+}
+
+.alert-basic{
+	background-color: rgba(0,0,0,0.2);
+	 box-shadow: 0px 3px 0px rgba(0,0,0,0.1);
+	  border-radius: 3px;
+	   color: rgba(255,255,255,0.3);
+}
+
+.alert-error{
+	background-color: rgba(255,0,0,0.2);
+	 box-shadow: 0px 3px 0px rgba(255,0,0,0.1);
+	  border-radius: 3px;
+	   color: rgba(255,255,255,0.3);
+}
+
+.alert-success{
+	background-color: rgba(87,160,28,0.2);
+	 box-shadow: 0px 3px 0px rgba(87,160,28,0.1);
+	  border-radius: 3px;
+	   color: rgba(255,255,255,0.3);
+}
+
+.alert-error:before{
+	font-family: fontawesome;
+	 content: "\f00d ";
+	  color: white;
+	   padding-right: 5px;
+}
+
+.alert-basic:before{
+	font-family: fontawesome;
+	 content: "\f05a ";
+	  color: white;
+	   padding-right: 5px;
+}
+
+/* --- Input Styling --- */
+
+input[type="text"]{
+	background:none !important;
+	 width: 100%;
+	  border-radius: 3px;
+	   color: #46525c;
+	  padding: 12px 25px;
+	 border: 1px solid #46525c;
+	margin-top: 15px;
+	 -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+input[type="text"]:focus{
+	outline: none;
+	 border: 1px solid #6e31d1;
+	  color: #86bba7;
+}
+
+input[type="email"]{
+	background:none !important;
+	 width: 100%;
+	  border-radius: 3px;
+	   color: #46525c;
+	  padding: 12px 25px;
+	 border: 1px solid #46525c;
+	margin-top: 15px;
+	 -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+input[type="email"]:focus{
+	outline: none;
+	 border: 1px solid #86bba7;
+	  color: #86bba7;
+}
+
+input[type="password"]{
+	background: none !important;
+	 width: 100%;
+	  border-radius: 3px;
+	   color: #46525c;
+	  padding: 12px 25px;
+	 border: 1px solid #46525c;
+	margin-top: 15px;
+	 -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	   box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+input[type="password"]:focus{
+	outline: none;
+	 border: 1px solid #6e31d1;
+	  color: #86bba7;
+}
+
+input[type="button"]{
+	background-color: #6e31d1;
+	 width: 100%;
+	  border-radius: 3px;
+	   color: white;
+	  padding: 12px 25px;
+	 border: 0;
+	 margin-top: 15px;
+	  box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+	   outline:none;
+	  font-weight: bold;
+	 webkit-appearance: none;
+}
+
+input[type="button"]:active{
+	background-color: #6e31d1;
+	 width: 100%;
+	  border-radius: 3px;
+	   color: white;
+	  padding: 12px 25px;
+	 border: 0;
+	 margin-top: 18px;
+	  box-shadow: 0 0px 5px rgba(0,0,0,0.5);
+	   outline: none;
+	  font-weight: bold;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #303c45 inset;
+	-webkit-text-fill-color: white !important;
+}
+
+
+
+
+
+
+
